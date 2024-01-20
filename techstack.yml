@@ -1,0 +1,509 @@
+repo_name: aryaniyaps/gpt4free-ts
+report_id: 11066681b6fc2df8eae0e30a6d82e86f
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-20T08:13:33+00:00'
+requested_by: xiangsx
+provider: github
+branch: master
+detected_tools_count: 38
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-05 10:36:27.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts
+  detection_source: Repo Metadata
+- name: Koa
+  description: Next generation web framework for node.js
+  website_url: http://koajs.com/
+  version: 2.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1726/5055057.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: ws
+  description: A Node.js WebSocket library
+  website_url: https://github.com/websockets/ws
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Neco86
+  last_updated_on: 2023-05-11 11:32:10.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/.github/workflows/docker-image.yml
+  detection_source: ".github/workflows/docker-image.yml"
+  last_updated_by: choogoo
+  last_updated_on: 2023-05-08 11:11:51.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: Puppeteer
+  description: Headless Chrome Node API
+  website_url: https://github.com/GoogleChrome/puppeteer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Alexandr
+  last_updated_on: 2023-06-16 00:45:54.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-06-06 04:38:30.000000000 Z
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-09 15:01:40.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: "@types/koa"
+  description: TypeScript definitions for Koa
+  package_url: https://www.npmjs.com/@types/koa
+  version: 2.13.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16749/default_c795226b47ffe4cb32fcfeee29dd5b030544258a.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: "@types/koa-bodyparser"
+  description: TypeScript definitions for koa-bodyparser
+  package_url: https://www.npmjs.com/@types/koa-bodyparser
+  version: 4.3.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18242/default_950c270c4c8944606f2f09fbe7f322c8c9164018.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: "@types/koa-router"
+  description: TypeScript definitions for koa-router
+  package_url: https://www.npmjs.com/@types/koa-router
+  version: 7.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17458/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.16.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: "@types/ws"
+  description: TypeScript definitions for ws
+  package_url: https://www.npmjs.com/@types/ws
+  version: 8.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: chrome-remote-interface
+  description: Chrome Debugging Protocol interface
+  package_url: https://www.npmjs.com/chrome-remote-interface
+  version: 0.33.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18589/default_5c7de077cac4a68f32e17c8de98e761949c60ca1.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: event-stream
+  description: Construct pipes of streams of events
+  package_url: https://www.npmjs.com/event-stream
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16246/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: https-proxy-agent
+  description: An HTTP
+  package_url: https://www.npmjs.com/https-proxy-agent
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17334/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-09 15:01:40.000000000 Z
+- name: js-tiktoken
+  description: JavaScript port of tiktoken
+  package_url: https://www.npmjs.com/js-tiktoken
+  version: 1.0.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: koa-bodyparser
+  description: A body parser for koa
+  package_url: https://www.npmjs.com/koa-bodyparser
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16659/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: koa-router
+  description: Router middleware for koa
+  package_url: https://www.npmjs.com/koa-router
+  version: 12.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16329/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-05-04 13:32:21.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-06-06 04:38:30.000000000 Z
+- name: terser
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/terser
+  version: 5.19.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiangsx
+  last_updated_on: 2023-07-06 15:48:14.000000000 Z
+- name: turndown
+  description: A library that converts HTML to Markdown
+  package_url: https://www.npmjs.com/turndown
+  version: 7.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-06-26 14:08:00.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/aryaniyaps/gpt4free-ts/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: xiang
+  last_updated_on: 2023-09-10 14:26:06.000000000 Z
